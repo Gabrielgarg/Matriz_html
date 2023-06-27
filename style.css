@@ -1,0 +1,21 @@
+#showorhide{
+    display: none;
+}
+#showorhide2{
+    display: none;
+}
+#button1{
+    /* width: 40px;
+    height: 40px; */
+}
+
+#matriz{
+    display: none;
+    /* width: 400px;
+    height: 200px; */
+    /* display: flex;
+    flex-direction: row; */
+/* width: 20px; */
+    /* width: 60px;
+    border: 1px solid black; */
+}

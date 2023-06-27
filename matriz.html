@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz</title>
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <div><h1>Gerando uma matriz</h1></div>
+    <form>
+        <label>Linhas:
+            <input id="linhas">
+        <label>Colunas:
+            <input id="colunas">
+        <input type="button" onclick="gerar()" id="button1" value="gerar"></input>
+    </form>
+    <div id="showorhide">
+        <input type="checkbox" id="checkbox" onchange="showhide2()">
+        <label>Destacar diagonais</label>
+    </div>
+    <div id="showorhide2">
+        <label>Primaria:
+            <input id="corprimaria" type="color">
+        <label>Secundaria:
+        <input id="corsecundaria" type="color">
+        <input type="button" onclick="gerar()" id="button2" value="gerar"></input>
+    </div>
+    <table id="matriz" border="1"></table>
+</body>
+</html>
