@@ -8,7 +8,7 @@
     <script src="/index.js" defer></script>
     <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
-<body>
+<body id="body">
     <div><h1>Gerando uma matriz</h1></div>
     <form>
         <label>Linhas:
@@ -22,11 +22,12 @@
         <label>Destacar diagonais</label>
     </div>
     <div id="showorhide2">
+        <p>Informe as <b>cores</b> das diagonais:</p>
         <label>Primaria:
             <input id="corprimaria" type="color">
         <label>Secundaria:
         <input id="corsecundaria" type="color">
-        <input type="button" onclick="gerar()" id="button2" value="gerar"></input>
+        <input type="button" onclick="gerar2()" id="button2" value="gerar"></input>
     </div>
     <table id="matriz" border="1"></table>
 </body>
